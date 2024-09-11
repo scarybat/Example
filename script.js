@@ -6,7 +6,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     // Display a confirmation message
     const formMessage = document.getElementById('formMessage');
-    formMessage.textContent = `WOOO, ${name}! HAppY Birthday pumk.`;
+    formMessage.textContent = `WOOO, ${name}!HAppY Birthday pumk.`;
     formMessage.style.color = 'red';
 
     // Optionally, you could send the form data to a server here
